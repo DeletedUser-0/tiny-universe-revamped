@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiny Universe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="ExpantaNum.js" defer></script>
+    <script src="main.js" defer></script>
+    <script src="ui.js" defer></script>
+</head>
+<body>
+  <!-- Decorated Splash Overlay -->
+  <div id="splash">
+    <!-- Canvas for floating particles -->
+    <canvas id="starfield"></canvas>
+    <!-- Title container -->
+    <div class="splash-content">
+      <h1 class="glow">Tiny Universe</h1>
+      <p class="subtitle">Click. Automate. Ascend.</p>
+    </div>
+  </div>
+
+  <div class="game-container">
+    <header class="stats-panel">
+      <div class="stat"><span id="points"></span></div>
+      <div class="stat"><span id="click"></span></div>
+      <div class="stat"><span id="pps"></span></div>
+    </header>
+
+    <main class="click-area">
+      <button id="main-btn">Click me!</button>
+    </main>
+
+    <!-- floating numbers container -->
+    <div id="floaters"></div>
+  </div>
+</body>
+</head>
